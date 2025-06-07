@@ -1,4 +1,6 @@
 import HeroImg from "@/assets/images/yatish.jpg";
+import Footer from "@/components/Footer"; // ✅ Import Footer component
+
 
 export default function About() {
   return (
@@ -52,6 +54,8 @@ export default function About() {
             </div>
           </div>
         </div>
+        {/* ✅ Footer Section */}
+        <Footer />
       </section>
     </>
   );

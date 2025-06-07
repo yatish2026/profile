@@ -48,6 +48,7 @@ const projects = [
   },
 ];
 
+
 export default function Projects() {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({

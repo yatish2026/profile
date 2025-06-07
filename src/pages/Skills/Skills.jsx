@@ -2,6 +2,7 @@ import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import IconCloudDemo from "@/components/globe";
+import Footer from "@/components/Footer"; // ✅ Import Footer component
 import { Code2, Paintbrush, Database, Layout, Cpu, Cloud } from "lucide-react";
 import {
   FaReact,
@@ -62,7 +63,9 @@ const SkillCard = ({ icon: Icon, title, skills, color }) => (
       </div>
     </CardContent>
   </Card>
+  
 );
+
 
 const SkillsSection = () => {
   const skillCategories = [
@@ -233,6 +236,8 @@ const SkillsSection = () => {
           ))}
         </div>
       </section>
+      {/* ✅ Footer Section */}
+      <Footer />
       <style jsx>{`
         @keyframes shimmer {
           0% {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BookOpen, Calendar, Trophy, Award } from "lucide-react";
 import { motion } from "framer-motion";
-import Footer from "@/components/Footer";
+
 
 const EducationSection = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -167,8 +167,7 @@ const EducationSection = () => {
         </motion.div>
       </div>
 
-      {/* Footer */}
-      <Footer />
+ 
     </section>
   );
 };

@@ -1,6 +1,11 @@
 import HeroImg from "@/assets/images/yatish.jpg";
 import Footer from "@/components/Footer"; // ✅ Import Footer component
-
+import Skills from "@/pages/Skills/Skills"; // ✅ Import Skills component
+import React from "react";
+import Experience from "@/pages/Experience/Experience"; // ✅ Import Experience component
+import Projects from "@/pages/Projects/Projects"; // ✅ Import Projects component
+import Education from "@/pages/Education/Education"; // ✅ Import Education component
+import Contact from "@/pages/Contact/Contact"; // ✅ Import Contact component
 
 export default function About() {
   return (
@@ -55,6 +60,12 @@ export default function About() {
           </div>
         </div>
         {/* ✅ Footer Section */}
+        <Skills />
+        <Experience />
+        <Projects />
+        <Education />
+        <Contact />
+
         <Footer />
       </section>
     </>

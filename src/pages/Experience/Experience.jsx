@@ -1,7 +1,5 @@
 import React from "react";
-import { Code2, Activity, Cpu, Layers, Network, Binary } from "lucide-react";
-import { FaGithub, FaInstagram, FaLinkedin, FaUserGraduate } from "react-icons/fa";
-import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
+import { Code2, Network, Layers } from "lucide-react";
 
 const ExperienceCard = ({ title, company, period, description, icon: Icon }) => (
   <div className="group relative overflow-hidden transform hover:-translate-y-2 transition-all duration-500 hover:scale-[1.02]">
@@ -32,62 +30,62 @@ const ExperienceSection = () => {
     {
       icon: Network,
       title: "DATA SCIENCE INTERN",
-      company: "Indo-Euro Synchronization (IES) Pvt Ltd ",
-      period: "February to May – 2024 ",
+      company: "Indo-Euro Synchronization Pvt Ltd",
+      period: "Feb - May 2024",
       description:
-        "Completed a certified internship on Emerging Technologies – Data Science, gaining hands-on experience in data analysis, machine learning, and real-time industry applications",
+        "Hands-on experience in data analysis, machine learning, and real-time applications through a certified internship.",
     },
     {
       icon: Layers,
-      title: "Full Stack Developer",
-      company: "Smart India Hackathon 2024",
-      period: "October to December - 2024",
+      title: "FULLSTACK DEVELOPER",
+      company: "Smart India Hackathon",
+      period: "Oct - Dec 2024",
       description:
-        "Worked on a real-time live call translation system, aimed at breaking language barriers during phone conversations. Built using technologies like speech-to-text, language translation APIs, and real-time audio processing. Collaborated with a team to design, develop, and prototype the solution within strict deadlines.",
+        "Built a real-time live call translation system using speech-to-text, translation APIs, and real-time audio processing.",
     },
     {
       icon: Code2,
-      title: "Campus Ambassador",
+      title: "CAMPUS AMBASSADOR",
       company: "GeeksforGeeks",
       period: "2024 - Present",
       description:
-        "Promoting coding culture on campus by organizing events, workshops, and hackathons. Actively engaging students with GeeksforGeeks content and resources while enhancing peer learning and technical networking."
+        "Promoting coding culture by organizing events and hackathons, enhancing technical community engagement on campus.",
     },
   ];
 
   return (
-    <div className="relative bg-[#0a0f1f] min-h-screen pt-32 pb-32 overflow-hidden">
+    <div className="relative bg-[#0a0f1f] min-h-screen pt-24 pb-24 overflow-hidden">
+      {/* Background glow animation */}
       <div className="absolute inset-0 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#0a0f1f] via-[#0a1a2f] to-[#0a0f1f] animate-pulse" />
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-purple-900/10 via-indigo-900/20 to-black opacity-60 pointer-events-none" />
+      <div className="absolute top-10 left-10 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl animate-float" />
+      <div className="absolute bottom-10 right-10 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-float delay-500" />
 
+      {/* Section Heading */}
       <div className="relative z-10 text-center space-y-4 mb-20">
         <h2 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 animate-gradient-x">
-          Professional Journey
+          Experiences
         </h2>
         <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-          "Transforming ideas into digital reality, one project at a time."
+          Transforming passion into progress through every role.
         </p>
       </div>
 
-      <div className="relative z-10 container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-6">
+      {/* Content Layout */}
+      <div className="relative z-10 container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-6">
         {experiences.map((exp, index) => (
           <ExperienceCard key={index} {...exp} />
         ))}
       </div>
 
-      <div className="absolute top-10 left-10 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl animate-float" />
-      <div className="absolute bottom-10 right-10 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-float delay-500" />
-
-      {/* Footer */}
-      <footer className="relative z-10 mt-20 border-t border-gray-700/30 pt-10 text-center">
-        <div className="flex justify-center space-x-6 text-gray-400 text-2xl">
-          <a href="https://github.com/YOUR_GITHUB" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-          <a href="https://www.instagram.com/YOUR_INSTAGRAM" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-          <a href="https://leetcode.com/YOUR_LEETCODE" target="_blank" rel="noopener noreferrer"><SiLeetcode /></a>
-          <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-          <a href="https://auth.geeksforgeeks.org/user/YOUR_GFG/profile" target="_blank" rel="noopener noreferrer"><SiGeeksforgeeks /></a>
-        </div>
-        <p className="text-sm text-gray-500 mt-4">© {new Date().getFullYear()} GOTTAPU YATISH. All rights reserved.</p>
-      </footer>
+      {/* Left Illustration */}
+      <div className="absolute left-0 bottom-0 w-[300px] md:w-[400px]">
+        <img
+          src="https://cdni.iconscout.com/illustration/premium/thumb/remote-working-3463728-2912020.png"
+          alt="Laptop Illustration"
+          className="w-full animate-float-slow"
+        />
+      </div>
     </div>
   );
 };

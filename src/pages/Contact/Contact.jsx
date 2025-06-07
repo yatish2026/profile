@@ -53,7 +53,7 @@ export default function Contact() {
     }
 
     const form = new FormData();
-    form.append("access_key", "90f4b8af-e590-42b0-beaf-10b18f66a703"); // Replace with your Web3Forms access key
+    form.append("access_key", "4a059e1c-e775-4e79-a769-59c338b21b38"); // Replace with your Web3Forms access key
     form.append("name", formData.name);
     form.append("email", formData.email);
     form.append("subject", formData.subject || "New Contact Form Submission");

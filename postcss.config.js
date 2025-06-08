@@ -1,8 +1,13 @@
+// tailwind.config.js
+
+import tailwindcss from "tailwindcss";
+import autoprefixer from "autoprefixer";
+
 /** @type {import('tailwindcss').Config} */
 export default {
     content: [
         "./index.html",
-        "./src/**/*.{js,ts,jsx,tsx}", // Make sure to include the correct paths for your project
+        "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
         extend: {
@@ -27,14 +32,15 @@ export default {
                     "50%": { backgroundPosition: "100% 50%" },
                 },
                 glow: {
-                    "0%, 100%": { textShadow: "0 0 10px #00f2ff, 0 0 20px #3a47d5" },
-                    "50%": { textShadow: "0 0 20px #3a47d5, 0 0 40px #00f2ff" },
+                    "0%, 100%": {
+                        textShadow: "0 0 10px #00f2ff, 0 0 20px #3a47d5",
+                    },
+                    "50%": {
+                        textShadow: "0 0 20px #3a47d5, 0 0 40px #00f2ff",
+                    },
                 },
             },
         },
     },
-    plugins: [
-        require("tailwindcss"),
-        require("autoprefixer"),
-    ],
+    plugins: [tailwindcss, autoprefixer],
 };

@@ -3,6 +3,14 @@ import { useEffect, useRef } from "react";
 
 const projects = [
   {
+    title: "Spotify Clone",
+    description: "A full-stack Spotify UI clone using React and Tailwind.",
+    img: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+    color: "#8f89ff",
+    github: "https://github.com/yatish2026/spotify-clone",
+    live: "https://yatish2026.github.io/spotify-clone/",
+  },
+  {
     title: "N-Queens Visualiser",
     description: "JavaScript-based DSA visualisation for the N-Queens problem.",
     img: "https://i.postimg.cc/6pVrn6fc/nqueens.jpg",
@@ -10,14 +18,7 @@ const projects = [
     github: "https://github.com/yatish2026/N-Queens-Visualiser-DSA",
     live: "https://yatish2026.github.io/N-Queens-Visualiser-DSA/",
   },
-  {
-    title: "Spotify Clone",
-    description: "A full-stack Spotify UI clone using React and Tailwind.",
-    img: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
-    color: "#8f89ff",
-    github: "https://github.com/yatish2026/spotify-clone",
-    live: "https://github.com/yatish2026/spotify-clone",
-  },
+  
   {
     title: "SwaRaksha_AI",
     description: "AI-powered safety system with real-time alerts and tracking.",

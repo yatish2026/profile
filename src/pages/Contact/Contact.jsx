@@ -113,7 +113,7 @@ export default function Contact() {
                   {
                     icon: <Phone className="w-6 h-6 text-green-400" />,
                     title: "Phone",
-                    content: "+91-9876543210",
+                    content: "+91-7989479005",
                   },
                   {
                     icon: <Linkedin className="w-6 h-6 text-blue-400" />,

@@ -39,7 +39,7 @@ export default function About() {
                 Hi, I’m an enthusiastic and ever-curious developer with a passion for building impactful software and solving real-world problems through technology.
               </p>
               <p className="text-white">
-                Beyond tech, I’m a lifelong learner, avid <strong>chess♛</strong> player, and someone who loves to dive into books📚 — from science🔬 to spiritual texts.
+                Beyond tech, I’m a lifelong learner, avid <strong>chess♛</strong> player, and someone who loves to dive into books📚 — from science🔬 to spiritual texts,also exploring human psychology 
               </p>
               <p className="text-white">
                 ✍️ Writing helps me reflect, and coding fuels my creativity.<br />

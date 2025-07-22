@@ -108,7 +108,7 @@ export default function Contact() {
                   {
                     icon: <Mail className="w-6 h-6 text-purple-400" />,
                     title: "Email",
-                    content: "yatishgottapu2026@gmail.com",
+                    content: "yatish.techie@gmail.com",
                   },
                   {
                     icon: <Phone className="w-6 h-6 text-green-400" />,
@@ -212,11 +212,10 @@ export default function Contact() {
 
               {status && (
                 <p
-                  className={`text-center text-sm mt-2 ${
-                    status.includes("success")
-                      ? "text-green-400"
-                      : "text-red-400"
-                  }`}
+                  className={`text-center text-sm mt-2 ${status.includes("success")
+                    ? "text-green-400"
+                    : "text-red-400"
+                    }`}
                 >
                   {status}
                 </p>

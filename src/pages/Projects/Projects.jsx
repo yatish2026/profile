@@ -6,7 +6,7 @@ const projects = [
   {
     title: "GearUp – Full Stack Car Booking Web App",
     description: "Built a full-stack Car Rental web app with booking system, dynamic pricing, and responsive dashboards using React, Node.js, and MongoDB",
-    img: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+    img: "https://i.postimg.cc/d3YjmVn9/car-rental-bd.png",
     color: "#38b718ff",
     github: "https://github.com/yatish2026/GearUp",
     live: "https://gear-up-alpha.vercel.app/",
@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Pathfinding Visualizer",
     description: "Developed a Pathfinding Visualizer using Dijkstra’s and A algorithms with interactive UI in React for real-time grid-based route simulation.",
-    img: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+    img: "https://i.postimg.cc/9f12jDwD/Screenshot-2025-07-31-171548.png",
     color: "#d4cbd4ff",
     github: "https://github.com/yatish2026/Pathfinder",
     live: "https://yatish2026.github.io/Pathfinder/",
@@ -24,7 +24,7 @@ const projects = [
   {
     title: "Spotify Clone",
     description: "A full-stack Spotify UI clone using React and Tailwind.",
-    img: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+    img: "https://i.postimg.cc/133hr9jP/Screenshot-2025-07-31-171735.png",
     color: "#8f89ff",
     github: "https://github.com/yatish2026/spotify-clone",
     live: "https://yatish2026.github.io/spotify-clone/",

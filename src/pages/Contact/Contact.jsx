@@ -124,6 +124,12 @@ export default function Contact() {
                   },
                   {
                     icon: <Github className="w-6 h-6 text-gray-400" />,
+                    title: "LeetCode",
+                    content: "https://leetcode.com/u/Yatish_geek/",
+                    link: true,
+                  },
+                  {
+                    icon: <Github className="w-6 h-6 text-gray-400" />,
                     title: "GitHub",
                     content: "https://github.com/yatish2026",
                     link: true,

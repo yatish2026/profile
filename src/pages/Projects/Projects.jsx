@@ -4,6 +4,24 @@ import { useLocation } from "react-router-dom";
 
 const projects = [
   {
+    title: "GearUp – Full Stack Car Booking Web App",
+    description: "Built a full-stack Car Rental web app with booking system, dynamic pricing, and responsive dashboards using React, Node.js, and MongoDB",
+    img: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+    color: "#38b718ff",
+    github: "https://github.com/yatish2026/GearUp",
+    live: "https://gear-up-alpha.vercel.app/",
+  },
+  {
+    title: "Pathfinding Visualizer",
+    description: "Developed a Pathfinding Visualizer using Dijkstra’s and A algorithms with interactive UI in React for real-time grid-based route simulation.",
+    img: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+    color: "#d4cbd4ff",
+    github: "https://github.com/yatish2026/Pathfinder",
+    live: "https://yatish2026.github.io/Pathfinder/",
+  },
+
+
+  {
     title: "Spotify Clone",
     description: "A full-stack Spotify UI clone using React and Tailwind.",
     img: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
@@ -25,7 +43,7 @@ const projects = [
     img: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
     color: "#00ffaa",
     github: "https://github.com/yatish2026/SwaRaksha_AI",
-    live: "https://github.com/yatish2026/SwaRaksha_AI",
+
   },
   {
     title: "Black Friday Sales",
@@ -35,6 +53,8 @@ const projects = [
     github: "https://github.com/yatish2026/BLACKFRIDAY-SALES_PROJECT-",
     live: "https://github.com/yatish2026/BLACKFRIDAY-SALES_PROJECT-",
   },
+
+
 ];
 
 const fadeInUp = {

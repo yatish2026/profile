@@ -53,10 +53,15 @@ const profile = {
     name: 'MR.YATISH',
     title: 'Full-Stack Developer | DSA | Problem Solver',
     skills: [
-        'React', 'NextJS', 'Redux', 'Express',
-        'MySQL', 'MongoDB', 'Docker', 'AWS', 'TypeScript',
-        'GraphQL', 'Git'
-    ],
+    'React.js', 'Next.js', 'TypeScript', 'HTML5', 'CSS3',  
+    'Tailwind CSS','Node.js', 'Express.js', 'REST APIs',
+    'MongoDB', 'MySQL',
+    'Docker', 'AWS (EC2, S3, IAM)', 'Firebase',
+    'Git', 'GitHub', 'Postman',
+    'JWT Authentication', 'Google Cloud APIs',
+    'Agile methodologies', 'Trello', 'Notion'
+],
+
     hardWorker: true,
     quickLearner: true,
     problemSolver: true,

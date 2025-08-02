@@ -33,13 +33,13 @@ export default function About() {
             {/* Text Section */}
             <div className="relative space-y-4">
               <p className="text-white">
-                👨‍💻 <strong>Full Stack Developer</strong> | 💡 <strong>Problem Solver</strong> | 🧑‍🎓 3rd Year IT Student at SVCET, Chittoor
+                👨‍💻 <strong>Full Stack Developer</strong> | 💡 <strong>Problem Solver</strong> | 🧑‍🎓final Year IT Student at SVCET, Chittoor
               </p>
               <p className="text-white">
                 Hi, I’m an enthusiastic and ever-curious developer with a passion for building impactful software and solving real-world problems through technology.
               </p>
               <p className="text-white">
-                Beyond tech, I’m a lifelong learner, avid <strong>chess♛</strong> player, and someone who loves to dive into books📚 — from science🔬 to spiritual texts,also exploring human psychology 
+                Beyond tech, I’m a lifelong learner, avid <strong>chess♛</strong> player, and someone who loves to dive into books📚 — from science🔬 to spiritual texts,also exploring human psychology
               </p>
               <p className="text-white">
                 ✍️ Writing helps me reflect, and coding fuels my creativity.<br />

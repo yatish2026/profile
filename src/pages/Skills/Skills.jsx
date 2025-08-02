@@ -3,6 +3,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import IconCloudDemo from "@/components/globe";
 import { Code2, Paintbrush, Database, Layout, Cpu, Cloud } from "lucide-react";
+import { FaBrain, FaHeadphones, FaWrench, FaLaptopCode, FaHandsHelping, FaPlane, FaPenNib, FaCameraRetro } from "react-icons/fa";
+import { MdLiveTv, MdSportsTennis } from "react-icons/md";
+import { GiChessKnight } from "react-icons/gi";
+
 import {
   FaReact,
   FaNodeJs,
@@ -37,9 +41,7 @@ const SkillCard = ({ icon: Icon, title, skills, color }) => (
     <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[rgba(100,100,255,0.1)] to-transparent group-hover:via-[rgba(100,100,255,0.2)] animate-shimmer"></div>
     <CardContent className="p-6 relative z-10">
       <div className="flex items-center gap-4 mb-6">
-        <div
-          className={`p-3 rounded-xl bg-gray-800/50 ${color} group-hover:scale-110 transition-transform duration-300`}
-        >
+        <div className={`p-3 rounded-xl bg-gray-800/50 ${color} group-hover:scale-110 transition-transform duration-300`}>
           <Icon className="w-8 h-8" />
         </div>
         <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
@@ -62,9 +64,7 @@ const SkillCard = ({ icon: Icon, title, skills, color }) => (
       </div>
     </CardContent>
   </Card>
-
 );
-
 
 const SkillsSection = () => {
   const skillCategories = [
@@ -132,13 +132,31 @@ const SkillsSection = () => {
         { name: "Leadership", icon: <FaAws className="w-4 h-4 text-orange-400" /> },
       ],
     },
+    {
+      icon: MdAnimation,
+      title: "Hobbies & Interests",
+      color: "text-indigo-400",
+      skills: [
+        { name: "Building Side Projects", icon: <FaReact className="w-4 h-4 text-cyan-400" /> },
+        { name: "Problem Solving", icon: <Cpu className="w-4 h-4 text-yellow-400" /> },
+        { name: "Listening to Music", icon: <FaHeadphones className="w-4 h-4 text-pink-300" /> },
+        { name: "Exploring New Tech/Tools", icon: <FaWrench className="w-4 h-4 text-blue-300" /> },
+        { name: "Watching Web Series", icon: <MdLiveTv className="w-4 h-4 text-red-300" /> },
+        { name: "Hackathons & Tech Fests", icon: <SiFirebase className="w-4 h-4 text-orange-400" /> },
+        { name: "Helping Others Learn", icon: <FaHandsHelping className="w-4 h-4 text-indigo-300" /> },
+        { name: "Chess", icon: <GiChessKnight className="w-4 h-4 text-gray-300" /> },
+        { name: "Badminton", icon: <MdSportsTennis className="w-4 h-4 text-lime-400" /> },
+        { name: "Traveling", icon: <FaPlane className="w-4 h-4 text-teal-400" /> },
+        { name: "Writing", icon: <FaPenNib className="w-4 h-4 text-amber-400" /> },
+        { name: "Photography", icon: <FaCameraRetro className="w-4 h-4 text-rose-400" /> },
+      ],
+    },
   ];
 
   return (
     <main className="pt-15 lg:pt-0 text-white min-h-screen bg-[#04081A] relative">
       {/* Grid Background */}
       <div className="absolute inset-0 bg-grid-pattern opacity-20 pointer-events-none"></div>
-
       <section className="container mx-auto px-4 py-11 relative z-10">
         <div className="flex justify-center items-center ">
           <IconCloudDemo />
@@ -155,8 +173,6 @@ const SkillsSection = () => {
           ))}
         </div>
       </section>
-      {/* ✅ Footer Section */}
-
       <style jsx>{`
         @keyframes shimmer {
           0% {
